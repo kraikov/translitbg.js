@@ -1,50 +1,38 @@
 {
-  "name": "translitbg",
-  "version": "1.2.0",
-  "description": "Bulgarian to Latin characters transliteration.",
-  "main": "src/translitbg.js",
+  "name": "my-webpack-project",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "author": "raykov@weichain.tech",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "directories": {
     "test": "test"
   },
+  "files": ["src"],
   "scripts": {
-    "test": "gulp test",
-    "build": "gulp build",
-    "lint": "gulp lint"
+    "test": "mocha -r ts-node/register test/*.test.ts",
+    "build": "tsc --project tsconfig.json"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/petarov/translitbg.js.git"
+    "url": "https://github.com/kraikov/translitbg.js.git"
   },
-  "keywords": [
-    "cyrillic",
-    "transliteration",
-    "bulgarian",
-    "cyr2lat",
-    "транслитерация"
-  ],
-  "author": "Petar Petrov (https://github.com/petarov/translitbg.js)",
-  "license": "MIT",
+  "keywords": ["cyrillic", "transliteration", "bulgarian", "cyr2lat", "транслитерация"],
   "bugs": {
-    "url": "https://github.com/petarov/translitbg.js/issues"
+    "url": "https://github.com/kraikov/translitbg.js/issues"
   },
-  "homepage": "https://github.com/petarov/translitbg.js#readme",
+  "homepage": "https://github.com/kraikov/translitbg.js#readme",
   "devDependencies": {
-    "chai": "^4.2.0",
-    "gulp": "^4.0.2",
-    "gulp-concat": "^2.6.0",
-    "gulp-header": "^2.0.9",
-    "gulp-jest": "https://registry.npmjs.org/@jacobq/gulp-jest/-/gulp-jest-4.0.3-PR65.tgz",
-    "gulp-jshint": "^2.0.1",
-    "gulp-mocha": "^8.0.0",
-    "gulp-uglify": "^3.0.2",
-    "jest-cli": "^26.6.3",
-    "jest-junit": "^12.0.0",
-    "jshint": "^2.9.2",
-    "mocha": "^8.0.1",
-    "run-sequence": "^2.2.1"
+    "@types/chai": "^4.2.16",
+    "@types/mocha": "^8.2.2",
+    "prettier": "^2.2.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
   },
-  "jest-junit": {
-    "outputDirectory": "test-results/jest",
-    "outputName": "results.xml"
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "webpack": "^5.31.0"
   }
 }
