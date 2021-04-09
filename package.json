@@ -1,5 +1,5 @@
 {
-  "name": "@kraykov/translitbg",
+  "name": "@weichain/translitbg",
   "version": "1.0.0",
   "description": "Bulgarian to Latin (and vice versa) characters transliteration. Forked from https://github.com/petarov/translitbg.js",
   "author": "raykov@weichain.tech",
