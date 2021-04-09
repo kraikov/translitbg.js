@@ -7,16 +7,16 @@ Transliterates Bulgarian to Latin and Latin to Bulgarian characters. Froked from
 
 # Install
 
-    npm install @kraykov/translitbg
+    npm install @weichain/translitbg
 
 or
 
-    yarn add @kraykov/translitbg
+    yarn add @weichain/translitbg
 
 # Usage
 
 ```javascript
-import { cyrilicToLatin, latinToCyrilic } from '@kraykov/translitbg'
+import { cyrilicToLatin, latinToCyrilic } from '@weichain/translitbg'
 
 cyrilicToLatin('абвгдежзийклмнопрстуфхцчшщъьюя'); 
 // abvgdezhziyklmnoprstufhtschshshtayyuya
