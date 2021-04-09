@@ -1,7 +1,7 @@
 {
-  "name": "my-webpack-project",
+  "name": "@kraykov/translitbg",
   "version": "1.0.0",
-  "description": "My webpack project",
+  "description": "Bulgarian to Latin (and vice versa) characters transliteration. Forked from https://github.com/petarov/translitbg.js",
   "author": "raykov@weichain.tech",
   "license": "MIT",
   "main": "dist/index.js",
