@@ -1,4 +1,5 @@
 bower_components
+dist
 *.html
 test-results
 node_modules
