@@ -9,7 +9,7 @@
   "directories": {
     "test": "test"
   },
-  "files": ["src"],
+  "files": ["src", "dist"],
   "scripts": {
     "test": "mocha -r ts-node/register test/*.test.ts",
     "build": "tsc --project tsconfig.json"
