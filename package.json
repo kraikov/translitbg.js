@@ -6,9 +6,6 @@
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "directories": {
-    "test": "test"
-  },
   "files": ["src", "dist"],
   "scripts": {
     "test": "mocha -r ts-node/register test/*.test.ts",
